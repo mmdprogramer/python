@@ -105,8 +105,8 @@ def Start():
             x.perimeter()
             x.area1()
             Start()
-        if a != '1' and a != '2':
-            print('invalid number!')
+        else:
+            print(value_error)
             Start()
     elif b=='2':
         x = Square(input("enter Square's side:"))
@@ -124,8 +124,8 @@ def Start():
                           input("enter trapezius's side_3:"),input("enter trapezius's side_4:"))
             x.perimeter()
             Start()
-        elif a != '1' and a != '2':
-            print('invalid number!!')
+        else:
+            print(value_error)
             Start()
     elif b=='4':
         x = Circle(input("enter Circle's radius:"))
